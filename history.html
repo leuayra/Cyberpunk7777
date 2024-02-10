@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Cyberpunk 7777</title>
+ <script>
+  let text = '{ "employees" : [' +
+'{ "firstName":"John" , "lastName":"Doe" },' +
+'{ "firstName":"Anna" , "lastName":"Smith" },' +
+'{ "firstName":"Peter" , "lastName":"Jones" } ]}';
+
+const obj = JSON.parse(text);  
+ </script>
+</head>
+<body>
+ <center>Health: 100 | Energy: 50</center>
+ <hr>
+ <center>
+ <p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML =
+obj.employees[2].firstName + " " + obj.employees[1].lastName;
+</script>
+
+Hello. Who are you?<br>
+
+<a href="">Man</a><br>
+<a href="">Woman</a><br><br>
+
+  <button>UP</button><br>
+  <button>LEFT</button><button>RIGHT</button><br>
+  <button>DOWN</button><br><br>
+ </center>
+
+<a href="">Market</a><br>
+<a href="">Family</a><br>
+<a href="">Drone</a><br>
+<a href="">Ship</a><br>
+<a href="">Garden</a><br>
+<a href="">Th</a><br>
+</body>
+</html>
