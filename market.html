@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Cyberpunk 7777</title>
+ <script>
+  let text = '{ "employees" : [' +
+'{ "firstName":"John" , "lastName":"Doe" },' +
+'{ "firstName":"Anna" , "lastName":"Smith" },' +
+'{ "firstName":"Peter" , "lastName":"Jones" } ]}';
+
+const obj = JSON.parse(text);  
+ </script>
+</head>
+<body>
+ <center>Health: 100 | Energy: 50</center>
+ <hr>
+ <center>
+ <p id="demo"></p>
+
+Food<br>
+<a href="">Sandwich</a><br>
+<a href="">Pizza</a><br>
+<a href="">Halal</a><br><br>
+
+Organic Food<br>
+<a href="">Banana</a><br>
+<a href="">Bread</a><br>
+<a href="">Rice</a><br><br>
+
+
+<script>
+document.getElementById("demo").innerHTML =
+obj.employees[2].firstName + " " + obj.employees[1].lastName;
+</script> 
+  <button>UP</button><br>
+  <button>LEFT</button><button>RIGHT</button><br>
+  <button>DOWN</button><br><br>
+ </center>
+
+<a href="history.html">History</a><br>
+<a href="">Market</a><br>
+<a href="">Family</a><br>
+<a href="">Garden</a><br>
+<a href="">Organization</a><br>
+<a href="">Ship</a><br>
+<a href="">Drone</a><br>
+<a href="">Care Card</a><br>
+<a href="">Th</a><br>
+<a href="">Tattoo</a><br>
+</body>
+</html>
